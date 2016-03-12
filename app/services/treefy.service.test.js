@@ -17,12 +17,13 @@ describe('angular-filterbox module', function() {
         ];
 
     beforeEach(module('angular-filterbox'));
+
     beforeEach(inject(function (_treefy_) {
         treefyService = _treefy_;
         treefied = treefyService.DoTreefy(flat);
     }));
 
-    describe('treefy a collection of > statement', function(){
+    describe('treefy service', function(){
 
         it('returns correct depth', inject(function() {
             expect(treefied.depth).toBe(5);

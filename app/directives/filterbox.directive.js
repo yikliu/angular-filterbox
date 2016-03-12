@@ -4,7 +4,7 @@
     angular.module('angular-filterbox')
         .directive('filterbox', ['treefy', function(treefy){
             return {
-                templateUrl: './directives/filterbox.html',
+                templateUrl: 'tpl/filterbox.html',
                 restricted: 'E',
                 scope: {
                     ngModel: '=',
