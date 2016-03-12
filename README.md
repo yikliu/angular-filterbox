@@ -4,12 +4,7 @@
 
 ## Getting Started
 
-### Prerequisites
-
-You need git to clone the repository. 
-[http://git-scm.com/](http://git-scm.com/).
-
-lone the angular-seed repository using [git][git]:
+Clone the repository using [git][git]:
 
 ```
 git clone https://github.com/yikliu/angular-fliterbox.git
