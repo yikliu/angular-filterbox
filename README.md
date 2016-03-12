@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Clone the repository using [git][git]:
+Clone the repository using git clone:
 
 ```
 git clone https://github.com/yikliu/angular-fliterbox.git
