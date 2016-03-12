@@ -9,7 +9,6 @@ module.exports = function(config){
 
     ngHtml2JsPreprocessor: {
         stripPrefix: 'app/'
-        //prependPrefix: 'app/',
     },
 
     files : [
@@ -20,11 +19,12 @@ module.exports = function(config){
         'app/bower_components/angular-route/angular-route.js',
         'app/bower_components/underscore/underscore-min.js',
         'app/app.js',
-        'app/demo*/**/*.js',
+        'app/controller*/**/*.js',
         'app/directives*/**/*.js',
         'app/services*/**/*.js',
         'app/**/*.html',
         'app/app.css',
+        'app/test*/**/*.js',
         'app/tpl/**/*.*',
         'app/tpl/filterbox.html'
     ],

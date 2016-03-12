@@ -4,7 +4,7 @@ describe('angular-filterbox module', function() {
 
   beforeEach(module('angular-filterbox'));
 
-  describe('demo controller', function(){
+  describe('controller controller', function(){
     var scope;
     beforeEach(angular.mock.inject(function($controller,$rootScope){
       scope = $rootScope.$new();

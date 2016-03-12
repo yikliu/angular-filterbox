@@ -6,8 +6,8 @@ angular.module('angular-filterbox', [
 ]).config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'demo/demo.html',
+            templateUrl: 'tpl/demo.html',
             controller: 'DemoCtrl'
         })
-        .otherwise({redirectTo: '/demo'});
+        .otherwise({redirectTo: '/controller'});
 }]);
